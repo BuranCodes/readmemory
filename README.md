@@ -10,7 +10,7 @@ The `readmemory` program is designed to extract strings from the stack and heap 
 readmemory [procID]
 ```
 
-* `procID`: The process ID of the target process. If not provided, the program will display a prompt, asking of process ID.
+* `procID`: The process ID of the target process. If not provided, the program will display a prompt, asking for process ID.
 
 Note: The `readmemory` program generates text files containing the extracted strings. The files are named "ptrstringDump.txt" for pointer strings, "localstringDump.txt" for local strings, and "heapstringDump.txt" for heap strings.
 
@@ -58,3 +58,15 @@ readmemory 1234
 ## Additional Information
 
 For more details about the implementation and inner workings of the `readmemory` program, refer to the source code comments and consult the documentation of the [Windows API functions](https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-api-list) used.
+
+## **Contributing**
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch `(git checkout -b feature/epicfeature)`
+3. Commit your Changes `(git commit -m 'Add some epic feature')`
+4. Push to the Branch `(git push origin feature/epicfeature)`
+5. Open a Pull Request
